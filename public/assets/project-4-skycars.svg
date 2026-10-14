@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="skyCarBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="neonCyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06B6D4"/>
+      <stop offset="100%" stop-color="#3B82F6"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#skyCarBg)"/>
+  <circle cx="400" cy="260" r="220" fill="#0284C7" opacity="0.12" filter="blur(60px)"/>
+
+  <!-- Top bar -->
+  <rect x="60" y="40" width="680" height="44" rx="10" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+  <text x="90" y="68" font-family="system-ui, sans-serif" font-size="16" font-weight="900" fill="#38BDF8">SKY<tspan fill="#FFFFFF">CARS</tspan></text>
+  <text x="240" y="67" font-family="system-ui, sans-serif" font-size="11" fill="#94A3B8">Fleet  ·  SUVs  ·  Sports  ·  Luxury  ·  Locations</text>
+  <rect x="610" y="50" width="110" height="26" rx="6" fill="#0284C7"/>
+  <text x="665" y="67" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#FFFFFF" text-anchor="middle">Book Vehicle</text>
+
+  <!-- Car Silhouette / Graphic -->
+  <g transform="translate(180, 130)">
+    <!-- Car body profile -->
+    <path d="M 40 140 Q 90 90 150 80 L 260 80 Q 320 85 360 115 L 420 135 Q 440 145 440 165 L 20 165 Q 20 145 40 140 Z" fill="#1E293B" stroke="#38BDF8" stroke-width="2"/>
+    <!-- Cabin Windows -->
+    <path d="M 160 86 L 255 86 Q 300 90 325 118 L 135 118 Z" fill="#38BDF8" opacity="0.25"/>
+    <!-- Wheels -->
+    <circle cx="90" cy="165" r="32" fill="#090D16" stroke="#38BDF8" stroke-width="4"/>
+    <circle cx="90" cy="165" r="14" fill="#38BDF8"/>
+    <circle cx="360" cy="165" r="32" fill="#090D16" stroke="#38BDF8" stroke-width="4"/>
+    <circle cx="360" cy="165" r="14" fill="#38BDF8"/>
+    <!-- Ground glow -->
+    <ellipse cx="225" cy="185" rx="190" ry="12" fill="#38BDF8" opacity="0.3" filter="blur(8px)"/>
+  </g>
+
+  <!-- Floating Spec Badges -->
+  <rect x="60" y="340" width="200" height="95" rx="12" fill="#0F172A" stroke="#1E293B" stroke-width="1.5"/>
+  <text x="80" y="368" font-family="system-ui, sans-serif" font-size="11" fill="#64748B">MODEL</text>
+  <text x="80" y="390" font-family="system-ui, sans-serif" font-size="16" font-weight="800" fill="#FFFFFF">Apex GT Turbo</text>
+  <text x="80" y="415" font-family="system-ui, sans-serif" font-size="11" fill="#38BDF8">0-100 km/h: 3.4s</text>
+
+  <rect x="280" y="340" width="200" height="95" rx="12" fill="#0F172A" stroke="#1E293B" stroke-width="1.5"/>
+  <text x="300" y="368" font-family="system-ui, sans-serif" font-size="11" fill="#64748B">TRANSMISSION</text>
+  <text x="300" y="390" font-family="system-ui, sans-serif" font-size="16" font-weight="800" fill="#FFFFFF">7-Speed Dual</text>
+  <text x="300" y="415" font-family="system-ui, sans-serif" font-size="11" fill="#38BDF8">All-Wheel Drive</text>
+
+  <rect x="500" y="340" width="240" height="95" rx="12" fill="#0F172A" stroke="#0284C7" stroke-width="1.5"/>
+  <text x="520" y="368" font-family="system-ui, sans-serif" font-size="11" fill="#38BDF8">DAILY RATE</text>
+  <text x="520" y="395" font-family="system-ui, sans-serif" font-size="22" font-weight="900" fill="#38BDF8">$129 <tspan font-size="11" fill="#94A3B8">/ day</tspan></text>
+  <text x="520" y="418" font-family="system-ui, sans-serif" font-size="10.5" fill="#4ADE80">&#10003; Free Cancellation &amp; Insurance</text>
+</svg>
